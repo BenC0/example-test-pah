@@ -1,5 +1,6 @@
 // declare config with test id and tracking requirements
 export const config = {
+    // Unique to test/patch. UJsed in tracking and CSS.
     "id": "pah000",
     "tracking": {
         "google_analytics": {
