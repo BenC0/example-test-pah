@@ -7,6 +7,7 @@ const production_folder = "./prod/"
 
 const config = {
 	entry: {
+		// This is where you add/remove variant scripts
 		control: `${build_folder}control/index.js`,
 		variation_1: `${build_folder}variation_1/index.js`,
 	},

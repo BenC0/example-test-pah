@@ -1,4 +1,3 @@
-import variationCSS from "./index.css";
 import norman from "../norman/index.js"
 
 function init() {
@@ -8,7 +7,7 @@ function init() {
 
 const Variant = {
     name: "Control",
-    css: variationCSS,
+    css: "",
     conditions: () => {
         let conditions = []
         conditions.push(true)
