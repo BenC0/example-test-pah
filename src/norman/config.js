@@ -1,12 +1,13 @@
-import log from "./norman_modules/core/log.js"
-
+// declare config with test id and tracking requirements
 export const config = {
     "id": "pah000",
     "tracking": {
         "google_analytics": {
-            "dimension": false
+            // custom dimension number to send data to, leave as empty string to not track.
+            "dimension": ""
         },
         "hotjar": {
+            // Hotjar tracking, true or false value.
             "heatmaps": false
         }
     }
